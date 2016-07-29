@@ -1,0 +1,18 @@
+Source: tacplus-client
+Section: admin
+Priority: optional
+Maintainer: Dave Olson <olson@cumulusnetworks.com>
+Homepage: http://www.cumulusnetworks.com
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.6
+
+Package: tacplus-client
+Version: 1.0
+Architecture: all
+Depends: audisp-tacplus, libnss-tacplus, libpam-tacplus, libsimple-tacacct1,
+  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, sudo (>= 1.8.10p4-cl3u1~)
+Recommends: audisp-tacplus, libnss-tacplus, libpam-tacplus, libsimple-tacacct1,
+  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, sudo (>= 1.8.10p4-cl3u1~)
+Description: This meta-package provides packages to implement TACACS+ clients
+ These packages provide TACACS+ client functionality for authentication and
+ accounting without adding the TACACS+ accounts to the local password file.

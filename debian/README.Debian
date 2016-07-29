@@ -1,0 +1,12 @@
+tacplus-client for Debian
+
+This is a dummy package that makes Debian's package management
+system believe that equivalents to packages on which other
+packages do depend on are actually installed.
+
+The special dependencies used in this package are:
+
+Depends: audisp-tacplus, libnss-tacplus, libpam-tacplus, libsimple-tacacct1,
+  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, sudo (>= 1.8.10p4-cl3u1)
+Recommends: audisp-tacplus, libnss-tacplus, libpam-tacplus, libsimple-tacacct1,
+  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, sudo (>= 1.8.10p4-cl3u1)
