@@ -1,4 +1,10 @@
-tacplus-client (1.0.0) RELEASED; urgency=low
+tacplus-client (1.0.1-cl3u2) UNRELEASED; urgency=low
+
+  * Added the tacplus-auth package for per-command authorization
+
+ -- dev-support <dev-support@cumulusnetworks.com>  Wed, 19 Oct 2016 17:34:46 -0700
+
+tacplus-client (1.0.0-cl3eau1) RELEASED; urgency=low
 
   * Metapackage to install tacacs client packages.
 

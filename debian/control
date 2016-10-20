@@ -10,9 +10,9 @@ Package: tacplus-client
 Version: 1.0
 Architecture: all
 Depends: audisp-tacplus, libnss-tacplus, libpam-tacplus, libsimple-tacacct1,
-  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, sudo (>= 1.8.10p4)
+  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, tacplus-auth, sudo (>= 1.8.10p4)
 Recommends: audisp-tacplus, libnss-tacplus, libpam-tacplus, libsimple-tacacct1,
-  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, sudo (>= 1.8.10p4)
+  libtac2 (>= 1.4.0), libtac2-bin, libtacplus-map1, tacplus-auth, sudo (>= 1.8.10p4)
 Description: This meta-package provides packages to implement TACACS+ clients
  These packages provide TACACS+ client functionality for authentication and
  accounting without adding the TACACS+ accounts to the local password file.
