@@ -1,11 +1,15 @@
-tacplus-client (1.0.1-cl3u2) UNRELEASED; urgency=low
+tacplus-client (1.0.1-1) unstable; urgency=low
 
+  * Updated packages versions for changes to support the
+    user_homedir configuration setting and other changes.
   * Added the tacplus-auth package for per-command authorization
+  * Remove libsimple-tacacct1 from list; nothing uses it.
+    Eventually, I want to get rid of libsimple-tacacct1.
 
- -- dev-support <dev-support@cumulusnetworks.com>  Wed, 19 Oct 2016 17:34:46 -0700
+ -- Dave Olson <olson@cumulusnetworks.com>  Mon, 15 May 2017 14:42:18 -0700
 
-tacplus-client (1.0.0-cl3eau1) RELEASED; urgency=low
+tacplus-client (1.0.0-1) unstable; urgency=low
 
   * Metapackage to install tacacs client packages.
 
- -- dev-support <dev-support@cumulusnetworks.com>  Fri, 29 Jul 2016 14:44:45 -0700
+ -- Dave Olson <olson@cumulusnetworks.com>  Fri, 29 Jul 2016 14:44:45 -0700
